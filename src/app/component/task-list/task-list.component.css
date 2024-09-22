@@ -1,0 +1,200 @@
+/* Container */
+.task-container {
+  max-width: 700px;
+  margin: 40px auto;
+  
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.tasks-container{
+  padding: 25px;
+}
+
+/* Header Section */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Date Picker */
+.date-picker input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Task Section */
+.task-section {
+  margin-bottom: 25px;
+}
+
+.task-header {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Task */
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.task:hover {
+  background-color: #f1f1f1;
+}
+
+/* Task Info */
+.task-info {
+  display: flex;
+  align-items: center;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-title {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Task Status */
+.task-status {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.task-status.pending {
+  color: #e74c3c;
+}
+
+.task-status.inprogress {
+  color: #f39c12;
+}
+
+.task-status.completed {
+  color: #2ecc71;
+}
+
+
+.task-edit {
+  color: #3498db;
+  margin-right: 10px;
+}
+
+.task-delete {
+  color: #e74c3c;
+}
+
+.task-edit:hover {
+  color: #2980b9;
+  box-shadow: 0px 0px 15px 3px rgba(0, 123, 255, 0.8); /* Glowing effect with blue color */
+  color: #007bff; 
+}
+
+.task-delete:hover {
+  color: #c0392b;
+  box-shadow: 0px 0px 15px 3px rgba(0, 123, 255, 0.8); /* Glowing effect with blue color */
+  color: #007bff; /* Optional: change text color on hover */
+}
+
+/* Add Task Button */
+.btn-add-task {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-add-task:hover {
+  background-color: #1e8449;
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  padding: 0.75rem;
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+  border-color: #007bff;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+}
+
+.btn-add-task {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-add-task:hover {
+  background-color: #218838;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Custom small screen handling */
+@media (max-width: 576px) {
+  .form-group.row .col {
+    margin-bottom: 1rem;
+  }
+}
