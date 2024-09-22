@@ -1,5 +1,13 @@
 # TODOLISTWITHANGULAR
 
+Made a To Do List with All CRUD operations
+- Add a task
+- View all tasks
+- Edit a task
+- Delete the task
+
+Used Bootstrap and CSS
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
 
 ## Development server
